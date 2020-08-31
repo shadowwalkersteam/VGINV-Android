@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a69ff</color>
+    <color name="colorPrimaryDark">#504aff</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="offWhite">#f1f0f2</color>
+    <color name="controlBackground">#FFFFFF</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+
+    <color name="gradient_center_color">#880d0d0f</color>
+    <color name="gradient_end_color">#885d5d5e</color>
+    <color name="gradient_start_color">#880f0f10</color>
+
+    <color name="color_trail_text">#102027</color>
+    <color name="color_date_text">#a4a4a4</color>
+
+    <color name="color_app_bar_text">#005689</color>
+    <color name="color_tab_text">#a7c0cd</color>
+
+    <color name="swipe_color_1">#4CAF50</color>
+    <color name="swipe_color_2">#03A9F4</color>
+    <color name="swipe_color_3">#FFC107</color>
+    <color name="swipe_color_4">#FF5722</color>
+
+    <color name="color_section">#4CAF50</color>
+    <color name="color_author">#8E24AA</color>
+
+    <!-- Colors for settings of color theme-->
+    <color name="white">#ffffff</color>
+    <color name="violet">#9c27b0</color>
+    <color name="light_green">#8bc34a</color>
+
+    <color name="nav_bar_start">#7db1ec</color>
+    <color name="nav_bar_end">#002e5b</color>
+
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#9c2334</color>
+    <color name="red_dark">#FF0000</color>
+    <color name="brown">#4e342e</color>
+</resources>

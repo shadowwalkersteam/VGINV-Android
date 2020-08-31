@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732576677690",
+    "firebase_url": "https://vginv-app.firebaseio.com",
+    "project_id": "vginv-app",
+    "storage_bucket": "vginv-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732576677690:android:fa2ba4d54c9e59f7bd1a03",
+        "android_client_info": {
+          "package_name": "com.techno.vginv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732576677690-146e8reehqfsvurl77u8rkmnh5jhhhkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9MbkZQZOhtiEir8gXweImr554yBkFQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732576677690-146e8reehqfsvurl77u8rkmnh5jhhhkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

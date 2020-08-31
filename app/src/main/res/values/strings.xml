@@ -1,0 +1,448 @@
+<resources>
+    <string-array name="menuOptions">
+        <item>VG Home</item>
+        <item>Categories</item>
+        <item>Projects</item>
+        <item>My Members</item>
+        <item>VG Members</item>
+        <item>Members Chat</item>
+        <item>Settings</item>
+        <item>Switch to HMG</item>
+        <item>Change Password</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string-array name="shortcutOptions">
+        <item>Notifications</item>
+        <item>Categories</item>
+        <item>My Members</item>
+        <item>VG Members</item>
+        <item>Members Chat</item>
+        <item>Settings</item>
+        <item>Switch to HMG</item>
+        <item>Chats</item>
+        <item>Projects</item>
+        <item>Group Chat</item>
+        <item>HMG Members</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string-array name="menuOptionsHMG">
+        <item>HMG Home</item>
+        <item>Categories</item>
+        <item>Deals</item>
+        <item>My Members</item>
+        <item>HMG Members</item>
+        <item>Members Chat</item>
+        <item>Settings</item>
+        <item>Switch to VG</item>
+        <item>Change Password</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string-array name="shortcutOptionsHMG">
+        <item>Notifications</item>
+        <item>Categories</item>
+        <item>My Members</item>
+        <item>HMG Members</item>
+        <item>Members Chat</item>
+        <item>Settings</item>
+        <item>Switch to VG</item>
+        <item>Chats</item>
+        <item>Deals</item>
+        <item>Group Chat</item>
+        <item>VG Members</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string-array name="legals">
+        <item>Direct Broker</item>
+        <item>Official commissioner, owner and decision maker</item>
+        <item>Broker of several brokers</item>
+    </string-array>
+
+    <string-array name="period">
+        <item>30 Days</item>
+        <item>60 Days</item>
+        <item>90 Days</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Agriculture</item>
+        <item>Mining</item>
+        <item>Construction</item>
+        <item>Wholesale and retail trade</item>
+        <item>Storage and Transportation</item>
+        <item>Accommodation and Restaurants</item>
+        <item>Technology and Communication</item>
+        <item>Final and Insurance</item>
+        <item>Real Estate</item>
+        <item>Profession and Scientific</item>
+        <item>Logistic support</item>
+        <item>Administrative Services</item>
+        <item>Education</item>
+        <item>Medicine and Health</item>
+        <item>Arts and entertainment</item>
+        <item>Exhibitions and conferences</item>
+        <item>Advertising and publicity</item>
+        <item>Cars</item>
+        <item>Furniture and Furnishing</item>
+        <item>Hygiene</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>Agriculture</item>
+        <item>Mining</item>
+        <item>Construction</item>
+        <item>Wholesale and retail trade</item>
+        <item>Storage and Transportation</item>
+        <item>Accommodation and Restaurants</item>
+        <item>Technology &amp; Communications</item>
+        <item>Final and Insurance</item>
+        <item>Real Estate</item>
+        <item>Profession and Scientific</item>
+        <item>Logistic support</item>
+        <item>Administrative Services</item>
+        <item>Education</item>
+        <item>Medicine and Health</item>
+        <item>Arts and entertainment</item>
+        <item>Exhibitions and conferences</item>
+        <item>Advertising and publicity</item>
+        <item>Cars</item>
+        <item>Furniture and Furnishing</item>
+        <item>Hygiene</item>
+    </string-array>
+
+    <string-array name="ProjectStatus">
+        <item>All Status</item>
+        <item>Uncompleted</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string name="app_name">VGINV</string>
+    <string name="usernameHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="oldPasswordHint">Old Password</string>
+    <string name="newPasswordHint">New Password</string>
+    <string name="confirmPasswordHint">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="changePassword">Change Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="lgout">Logout</string>
+    <string name="category">Categories</string>
+    <string name="add_new_project">Add New Project</string>
+    <string name="clear_notifications">Clear Notifications</string>
+    <string name="projects">Projects</string>
+    <string name="Total_Investment">Total Investment</string>
+    <string name="Total_Investment_SAR">Total Investment SAR</string>
+    <string name="Favorites">Favorites</string>
+    <string name="notifications">Notifications</string>
+    <string name="inbox">Inbox</string>
+
+    <string name="project">Projects</string>
+    <string name="news">News</string>
+    <string name="image_des">Image</string>
+    <string name="image_des_ic_share">Share</string>
+
+    <string name="updated_just_now">Updated just now</string>
+
+    <!-- Strings for Section -->
+    <string name="share_article">Share Article</string>
+    <string name="the_guardian">theguardian</string>
+    <string name="world">world</string>
+    <string name="science">science</string>
+    <string name="sport">sport</string>
+    <string name="environment">environment</string>
+    <string name="society">society</string>
+    <string name="fashion">fashion</string>
+
+    <string name="business">business</string>
+
+    <!--Strings to be used for the Preference Labels -->
+    <string name="culture">culture</string>
+    <string name="hint_num_of_items">Between 1 and 50</string>
+    <string name="settings_number_of_items_label">Number of Items</string>
+
+    <!-- Strings for Order-By preference [CHAR LIMIT=30] -->
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+    <string name="settings_order_by_label">Order By</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20]-->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Strings for From Date preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="settings_from_date_label">From Date</string>
+
+    <!-- Strings for Order Date preference [CHAR LIMIT=30] -->
+    <string name="settings_from_date_key" translatable="false">from date</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+    <string name="settings_order_date_label">Order Date</string>
+
+    <!-- Label for order-date published option [CHAR LIMIT=20]-->
+    <string name="settings_order_date_key" translatable="false">order date</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+    <!-- Label for order-date newspaper-edition option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_published_label">Published</string>
+    <string name="settings_order_date_published_value" translatable="false">published</string>
+
+    <!-- Label for order-date last-modified option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_newspaper_edition_label">Newspaper Edition</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">newspaper-edition</string>
+
+    <!-- Strings for Color-Theme preference [CHAR LIMIT=30] -->
+    <string name="settings_order_date_last_modified_label">Last Modified</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">last-modified</string>
+    <string name="settings_color_label">Color Theme</string>
+
+    <!-- Label for color theme white preference [CHAR LIMIT=20] -->
+    <string name="settings_color_key">color theme</string>
+    <string name="settings_color_default">white</string>
+
+    <!-- Label for color theme sky blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_white_label">White</string>
+    <string name="settings_color_white_value">white</string>
+
+    <!-- Label for color theme dark blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_sky_blue_label">Sky Blue</string>
+    <string name="settings_color_sky_blue_value">sky blue</string>
+
+    <!-- Label for color theme violet preference [CHAR LIMIT=20] -->
+    <string name="settings_color_dark_blue_label">Dark Blue</string>
+    <string name="settings_color_dark_blue_value">dark blue</string>
+
+    <!-- Label for color theme light green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_violet_label">Violet</string>
+    <string name="settings_color_violet_value">violet</string>
+
+    <!-- Label for color theme green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_light_green_label">Light Green</string>
+    <string name="settings_color_light_green_value">light green</string>
+
+    <!-- Strings for Text Size preference [CHAR LIMIT=30] -->
+    <string name="settings_color_green_label">Green</string>
+    <string name="settings_color_green_value">green</string>
+    <string name="settings_text_size_label">Text Size</string>
+
+    <!-- Label for text size small preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_key" translatable="false">text size</string>
+    <string name="settings_text_size_default" translatable="false">@string/settings_text_size_medium_value</string>
+
+    <!-- Label for text size medium preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_small_label">Small</string>
+    <string name="settings_text_size_small_value" translatable="false">small</string>
+
+    <!-- Label for text size large preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_medium_label">Medium</string>
+    <string name="settings_text_size_medium_value" translatable="false">medium</string>
+
+    <string name="settings_text_size_large_label">Large</string>
+
+    <string name="settings_text_size_large_value" translatable="false">large</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="sample_title_default">Default view</string>
+    <string name="sample_subtitle_default">Dialogs and messages with default style</string>
+    <string name="sample_title_attrs">Styled view</string>
+    <string name="sample_subtitle_attrs">Styled components using embedded attributes</string>
+    <string name="sample_title_layout">Custom layout</string>
+    <string name="sample_subtitle_layout">Custom layouts to change default views position</string>
+    <string name="sample_title_holder">Custom view holder</string>
+    <string name="sample_subtitle_holder">Custom view holder to extend default behaviour for a new features</string>
+    <string name="sample_title_custom_content">Custom content type</string>
+    <string name="sample_subtitle_custom_content">Custom message content on the example of voice message</string>
+
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="date_header_today">Today</string>
+    <string name="date_header_yesterday">Yesterday</string>
+
+    <string name="start_typing_status">Start typing</string>
+
+    <string name="stop_typing_status">Stop typing</string>
+    <string name="sample_title">ChatKit for Android</string>
+    <string name="view">View</string>
+    <string name="hmgvgerror">You cannot view this user profile</string>
+    <string name="hmgvgchaterror">You cannot chat with this user</string>
+    <string name="friendRequestError">Something went wrong. Please try again later</string>
+    <string name="profile">Profile</string>
+    <string name="friendrequest">New Friend Request</string>
+    <string name="friendRequestDetails">Sent you friend request</string>
+    <string name="fieldRequired">All fields are required</string>
+    <string name="passwordMatchError">Password Does not match</string>
+    <string name="passwordChangeSuccesss">Password has been changed successfully</string>
+    <string name="profileChangeSuccesss">Profile has been updated successfully</string>
+    <string name="passwordChangeError">There is an error changing password, Try again later</string>
+    <string name="profileChangeError">There is an error updating profile, Try again later</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="saveProfile">Save Profile</string>
+    <string name="fileUploading">Your file is uploading...</string>
+    <string name="AddNewProject">Add New Project</string>
+    <string name="AddNewDeal">Add New Deal</string>
+    <string name="title">Choose appropriate title for your projects*</string>
+    <string name="legalStatus">Legal Status Provider</string>
+    <string name="budget">Total Budget</string>
+    <string name="budget_SAR">Total Budget SAR</string>
+    <string name="submit">Submit</string>
+    <string name="addImage">Add Image</string>
+    <string name="addFile">Add Video</string>
+    <string name="description">Description</string>
+    <string name="choseFile">Choose a file</string>
+    <string name="pleasewait">please wait..</string>
+    <string name="Settings">Settings</string>
+    <string name="ProjectPosted">Project posted successfully</string>
+    <string name="ProjectPostedHMG">Deal posted successfully</string>
+    <string name="ProjectPostFail">Project post failed, Try again later</string>
+    <string name="ProjectPostFailHMG">Deal post failed, Try again later</string>
+    <string name="InvestInProject">I am interested in this Project</string>
+    <string name="InvestInDeal">I am interested in this Deal</string>
+    <string name="DownloadFiles">Download Files</string>
+    <string name="Deals">Deals</string>
+    <string name="HmgSwitch">Switch to HMG</string>
+    <string name="VGSwitch">Switch to VG</string>
+    <string name="Messages">Messages</string>
+    <string name="Home_vg">VG Home</string>
+    <string name="Home_hmg">HMG Home</string>
+    <string name="SEND_MESSAGE">Send Message</string>
+    <string name="LegalStatusProvider">Legal status of the project provider</string>
+    <string name="Period">Period</string>
+
+    <string name="switchusertitle">Switch User</string>
+    <string name="Country">Project Country</string>
+    <string name="City">Project City</string>
+    <string name="switchmsg">اتفاقية " الضوابط و الأحكام "
+\nشركة التجمع الافتراضي – VG Inv. Co.
+	\n1.	إن العناصر المكونة لمشروع التجمع الإفتراضي هي على النحو التالي:-
+	\n	شركة التجمع الافتراضي للإستثمار ومقرها الرئيس مدينة الرياض, وجاري التوسع محلياً و دولياً
+	\n	مركز حاضنة الأعمال لشركة التجمع الافتراضي بالرياض. المملكة العربية السعودية  " بيت الافتراضيين"
+	\n	موقع التجمع الإفتراضي على الانترنت www.gvinv.com
+	\n	 تطبيق التجمع الإفتراضي على منصات ابل ستور واندرويد تحت اسم VGINV
+	\n2.	ان هذه العناصر مجتمعه او منفردة تمثل أصل وروح مشروع (التجمع الإفتراضي) التي طورها المهندس/ سالم المسرحي, وبالتالي فإن قبولك بالإنضمام والتوقيع على هذه الوثيقة (الكترونياً) يعني قبولك بما جاء في هذه الإتفاقية حيث ان (التجمع الإفتراضي) يخضع لضوابط وأحكام هذه الإتفاقية ووافق جميع الاعضاء على اعتبار هذه الإتفاقية بمثابة المرجع الذي يضبط وينظم طريقة عمل التجمع الافتراضي وخارطة طريق لماهو قادم من خطوات يتم التوافق عليها بين جميع الأعضاء
+	\n3.	الهدف : من إنشاء هذا التجمع الافتراضي هو جمع أكبر عدد من الأعضاء المؤمنين بفكرة التعامل بالإفتراضية في عالم المال والأعمال ,ودمجهم ضمن بيئة تفاعلية غير ملزمة عبر تطبيق VGINV الذي يتكون من أعضاء مميزون يتوفر لديهم رؤوس اموال حاضرة قادرة على الدخول في مختلف الفرص الاستثمارية التي تناسبهم سواءا جماعيا او من خلال تكتلات جانبية
+	\n4.	الرؤية : هي ان تتحول فكرة وطريقة عمل شركة التجمع الإفتراضي للاستثمار الى حاضنة للمال والأعمال بطريقة مبتكرة وغير مسبوقة بامكانات ادارية مرنة واليات عملية لتحقيق افضل مداخيل ربحية ممكنة من كافة الفرص المطروحة من اعضاء التجمع الإفتراضي أو من خارج التجمع الإفتراضي او من رواد ورائدات الأعمال المتوقع شغلهم  لمساحات مختلفة بمراكز حاضنات شركة التجمع الافتراضي للإستثمار
+	\n5.	اخلاء مسؤولية:  تحذر شركة التجمع الافتراضي للاستثمار من انها لاتطلب ولن تطلب في اي وقت من الأوقات اي مبالغ نقدية سواء عبر التسليم الشخصي او عبر الحوالات البنكية لاي سبب, عدا ماحددته في الفقرة (6) من هذه الاتفاقية  ،  كما تحذر جميع الأعضاء من نقل او تحويل مبالغ مالية فيما بينهم دون اسباب منطقية ومرجعية قانونية ووثائق مصاحبة او غير ذات صلة بمشاريع او صفقات تم التوافق عليها بين كل او بعض الأعضاء ويتحمل كل عضو مسؤولية تصرفاته امام جهات الاختصاص الرسمية دون ادنى مسؤولية على شركة التجمع الافتراضي للاستثمار
+	\n6.	رسوم: علم جميع أعضاء التجمع الافتراضي بأنه لضمان استمرارية عمل شركة التجمع الافتراضي في اداء اعمالها ولتغطية مصاريف التطوير والتشغيل والصيانة والاعلانات ولجلب مزيداً من الأعضاء الفاعلين, اوجدت شركة التجمع الافتراضي ( 3 ) خيارات للحصول على حقوقها من أي عملية تجارية تتم بين اعضاء التجمع الإفتراضي وللعضو اختيار مايناسبه منها وهي على النحو التالي  :
+	\n.	الحصول على حصة لا تقل عن 2,5 % من الأعمال التجارية والشراكات التي تتم بين الأعضاء وتسجل الحصة باسم شركة التجمع الافتراضي للاستثمار.
+	\n.	الحصول على نسبة 5% من صافي ارباح الصفقات والأعمال التجارية والشراكات التي تتم بين الأعضاء بحيث يتم الاتفاق مع شركة التجمع الافتراضي على آليه التنفيذ.
+	\n.	 الاتفاق والتراضي على مبلغ مقطوع.
+ويبقى اختيار العضو لأي من هذه الخيارات الثلاثة حق و ذمة لاتسقط بالتقادم حتى يتم دفعها لشركة التجمع الإفتراضي للاستثمار
+	\n7.	استوعب جميع أعضاء التجمع الافتراضي اساس وطريقة عمل (التجمع الإفتراضي) ووافقوا عليها وهي الإفتراضية اي انه لايوجد الزام ولا التزام لأي عضو من ناحية قبول مايعرضه باقي الأعضاء من فرص, أفكار, مشاريع, صفقات, اقتراحات, تصورات وكذلك حضور اجتماعات العمل من عدمه, فلكل عضو كامل الحرية بالقبول او الرفض دون الحاجة لابداء الاسباب والمبررات
+	\n8.	يحق لأي عضو طرح مايشاء من فرص, أفكار, مشاريع,صفقات, اقتراحات وتصورات في أي وقت بعد تاريخ إنضمامه شريطة مراعاة الدقة والمصداقية فيما يطرحه على أن يكون مايعرضه واقعي وقابل للتطبيق ويفضل الجهوزية الكاملة عند طرح المشاريع اي توفر دراسات و ملخصات وميزانيات والعوائد والمخاطر والارباح وغيرها من الأمور الإعتيادية ذات الصلة
+	\n9.	ان كل مايطرحه أي عضو بالتجمع الإفتراضي من فرص, أفكار, مشاريع,صفقات, اقتراحات, تصورات وكافة الطروحات سواء مكتوبة او رسائل صوتية, رسائل نصية, اتصالات هاتفية او لقاءات شخصية او من خلال مختلف الوسائل الالكترونية عبر عناصر (التجمع الإفتراضي) الموضحة بمقدمة هذه الاتفاقية, تعتبر حقاً مشاعاً لجميع الاعضاء من ناحية التصرف بها منذ اللحظة التي تم طرحه فيها, ولايحق لمن طرح هذه العروض الاعتراض او طلب تعويض اذا تصرف اي عضو او أعضاء بهذه العروض واستغلوها وحققوا فوائد مادية او معنوية من وراءها.
+	\n10.	قررنا استقطاع نسبة 1% من عائد اياً من اختياراتك من الخيارات الثلاثة الموضحة في الفقرة (6) للاعمال الخيرية ، على أن تقوم شركة التجمع الافتراضي للاستثمار وفق الإمكانات بإنشاء مؤسسة خيرية غير ربحية لتتولى هذه المهمة
+	\n11.	يحق لأي عضو العمل بصفة منفردة أو جماعية ،كما ويحق له الإتحاد والتضامن ومقابلة من يشاء من أعضاء التجمع الافتراضي عبر مختلف المجالات والوسائل المتاحة سواء الكترونيا او شخصياً وكذلك عبر مقر حاضنة الأعمال الخاصة بشركة التجمع الافتراضي للاستثمار (بيت الافتراضيين)
+	\n12.	  اذا توافق عضو او مجموعة من الأعضاء على تنفيذ مشروع او صفقة ما في اي موقع جغرافي بالعالم وتم دراستها والتأكد من كافة نواحيها الاقتصادية والمالية وتم اعتمادها للتنفيذ, يقرر الجميع الطريقة الآمثل والأكثر امناً وقانونية للدخول في هذا المشروع او الصفقة, اي انه يتم التعامل مع كل حالة وفقاً لما يتم الإتفاق عليه بين الأعضاء المساهمون في هذه العملية التجارية بعينها
+	\n13.	علم اعضاء التجمع الافتراضي ان تطبيق (VGINV) هو المنصة الالكترونية المعتمدة المخصصة للنقاشات وطرح المشاريع والصفقات والأفكار والتصورات وكذلك للرد على الاستفسارات الموجودة لدى الأعضاء ويستطيع اي عضو تحميل التطبيق من متاجر ابل و اندرويد مجانا على ان يتم تفعيل اشتراكه لاحقا من قبل ممثل شركة التجمع الافتراضي
+	\n14.	ان الحد الأدنى لقبول واستمرارية العضوية لكافة أعضاء (التجمع الإفتراضي) هو اثبات كفاءة مالية لمبلغ 500 الف ريال سعودي او مايعادله بالعملات الأخرى, ويحق لممثل شركة التجمع الافتراضي التحقق من الكفاءة المالية من كافة الأعضاء في اي وقت لضمان جودة مستوى الأعضاء والتأكد ان الجميع هم على نفس المستوى والكفاءه والجهوزية المالية
+	\n15.	يحق لممثل شركة التجمع الافتراضي التصرف في الغاء عضوية اي عضو واخراجه من (التجمع الإفتراضي) في حال تأكد له قيام هذا العضو بمخالفات, وممارسات تؤدي الى التشويش والشوشرة, او التضليل والتدليس, او اعطاء بيانات غير صحيحة, او في حال  بقاء العضو مجمدا ومتوقف عن التفاعل والمشاركة مع بقية الأعضاء لفترة طويلة
+	\n16.	لايتحمل صاحب الفكرة ومتبنيها ولا ممثل شركة التجمع الافتراضي ولا أي عضو في التجمع الإفتراضي أخطاء الغير وكذلك لايتحملون اي نتائج سلبية قد يحدثها احد الأعضاء عن عمد او غير عمد
+	\n17.	يحق لأي عضو من أعضاء التجمع الافتراضي مغادرة (التجمع الإفتراضي) والخروج من تلقاء نفسه وقتما يشاء ودون الحاجة للتبرير
+	\n18.	يتحمل اي عضو من أعضاء (التجمع الإفتراضي) منفردا اي مسؤولية قانونية او ادعائات اجرائية من الجهات المختصة ذات الصلة في حال ثبت بأنه قدم فكرة,مشروع او صفقة مشبوهة او مسروقة او غير معلومة المصدر ونسبها الى نفسه, ولايتحمل اي عضو مساهم او مشارك في هذه العملية المسؤولية عن ذلك وكذلك لاتتحمل  شركة التجمع الافتراضي او من يمثلها المسؤولية عنها
+	\n19.	 يتحمل أي عضو قدم بيانات شخصية غير حقيقة او مزيفة او ليست عائده له او انتحل صفة ليست به المسؤولية كاملة اذا ماتم فتح تحقيق في ذلك عبر الجهات المختصة ويخلي كافة (اعضاء التجمع الإفتراضي) وشركة التجمع الافتراضي او من يمثلها انفسهم من اي مسؤولية قد تترتب على ذلك
+	\n20.	يحق لشركة التجمع الافتراضي للاستثمار او من يمثلها حذف أي بيانات او معلومات تم تسجيلها من خلال جميع الوسائل الموضحة بمقدمة هذه الإتفاقية بطريقة غير صحيحه او مشتبه بها او غير كاملة ، علما بأنه يتوجب على كل عضو التسجيل باسمه الكامل الصريح ولاتقبل الأسماء المستعارة .
+	\n21.	علم جميع أعضاء (التجمع الافتراضي) بأن هذه الاتفاقية (اتفاقية الضوابط والاحكام) سارية المفعول حتى يتم الغائها كتابياً، وليس لها فترة صلاحية محددة وسيتم تحديثها كلما دعت الحاجة الى ذلك.
+</string>
+    <string name="close">Close</string>
+    <string name="agree">Agree</string>
+    <string name="totalMemberInvest">Total Member Invest</string>
+    <string name="enter_amount">Enter Amount</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+    </string-array>
+
+    <string name="create_room">Add New Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_description">Group Description</string>
+    <string name="group_image">Group Image</string>
+    <string name="group_members">Choose members for the group</string>
+    <string name="delete">Delete Group</string>
+    <string name="add_members">Add Members</string>
+    <string name="add_member">Add Member</string>
+    <string name="group_info_update">Update Group Info</string>
+    <string name="group_admin">Group Admin</string>
+    <string name="Change_Language">Change Language</string>
+    <string name="search_here">Search Here</string>
+    <string name="all_members">All Members</string>
+    <string name="members_notification">Members Notification</string>
+    <string name="vg_members_message">To View VG Members, you have to fill up the form and submit the request</string>
+    <string name="hmg_members_message">To View HMG Members, you have to fill up the form and submit the request</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="call_date">Select call date</string>
+    <string name="call_time">Select call time</string>
+    <string name="switchback_hmg">You are switched to VG. Switch back to HMG</string>
+    <string name="switchback_vg">You are switched to HMG. Switch back to VG</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="choosecountry">Select Country</string>
+    <string name="choosecity">Select City</string>
+    <string name="designation">Designation</string>
+    <string name="bio">Bio</string>
+    <string name="job_title">Job Title</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="save_message">Do you want to save settings?</string>
+
+    <string name="project_interest">Thank you for expressing your interest.</string>
+    <string name="call_message">Would you like to schedule a Phone call for further details?</string>
+    <string name="project_like_vg">Liked this project</string>
+    <string name="project_like_hmg">Liked this deal</string>
+    <string name="call_scheduled">Thank you. Your call is scheduled</string>
+    <string name="no_members_to_add">No Members available to add</string>
+    <string name="no_new_notifications">No New Notifications</string>
+    <string name="no_friends_added">No Member in My Members list, Tap to add</string>
+    <string name="no_chat_available">No Members Chat found, Tap to chat with members</string>
+
+    <string name="no_projects">No projects to show</string>
+    <string name="no_deals">No deals to show</string>
+    <string name="no_deals_vg_message">To view deals, You have to fill the form for HMG and submit the form</string>
+    <string name="thanks_keep_exploring_deals">Thanks. Keep exploring more deals</string>
+    <string name="thanks_keep_exploring_projects">Thanks. Keep exploring more projects</string>
+
+    <string name="file_saved">File saved successfully</string>
+    <string name="load_more">See more projects</string>
+    <string name="load_more_deals">See more deals</string>
+    <string name="downloading">Downloading</string>
+    <string name="Attachments">Attachments</string>
+    <string name="ProjectSubmittedSuccessfully">Project Submitted Successfully</string>
+    <string name="DrojectSubmittedSuccessfully">Deal Submitted Successfully</string>
+
+    <string name="UnFriend">Delete Member</string>
+    <string name="UnFriendMessage">Are you sure want to delete Member?</string>
+    <string name="Ok">OK</string>
+
+    <string name="ThanksforSubmittingthePoll">Thanks for Submitting the Poll</string>
+
+    <string name="PleaseContactAdminforHMGaccess">Please Contact Admin for HMG access</string>
+    <string name="ClickHere">Click here</string>
+    <string name="HMGAdminwillcontactyoushortly">Thanks for your request, HMG Admin will contact you shortly"</string>
+    <string name="VideUploading">Video is uploading. Please wait"</string>
+
+
+    <string name="ProjectTitle">Title (Special Characters are not allowed)"</string>
+    <string name="SessionMessage">This account is logged in on another device"</string>
+
+
+</resources>

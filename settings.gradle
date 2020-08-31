@@ -1,0 +1,3 @@
+include ':app', ':duo-navigation-drawer', ":chatkit", ':simplesearch'
+rootProject.name='VGINV'
+project(':simplesearch').projectDir = new File('simplesearchview')

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mailBox"
+        app:showAsAction="never"
+        android:title="@string/Messages">
+    </item>
+
+    <item
+        android:id="@+id/notifications"
+        android:actionLayout="@layout/notification_layout_button"
+        app:showAsAction="never"
+        android:title="@string/notifications">
+    </item>
+
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:title="@string/Settings">
+    </item>
+
+
+</menu>

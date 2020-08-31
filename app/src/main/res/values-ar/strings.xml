@@ -1,0 +1,447 @@
+<resources>
+<string-array name="menuOptions">
+    <item>VG الصفحة الرئيسية </item>
+    <item>الاقسام</item>
+    <item>مشاريع</item>
+    <item>أعضائي</item>
+    <item>أعضاء VG</item>
+    <item>أعضاء الدردشة</item>
+    <item>الإعدادات</item>
+    <item>التبديل إلى HMG</item>
+    <item>تغيير كلمة المرور</item>
+    <item>الملف الشخصي</item>
+</string-array>
+
+    <string-array name="shortcutOptions">
+        <item>إخطارات</item>
+        <item>الاقسام</item>
+        <item>أعضائي</item>
+        <item>أعضاء VG</item>
+        <item>أعضاء الدردشة</item>
+        <item>الإعدادات</item>
+        <item>التبديل إلى HMG</item>
+        <item>دردشات</item>
+        <item>مشاريع</item>
+        <item>مجموعة محادثة</item>
+        <item>أعضاء HMG</item>
+        <item>الملف الشخصي</item>
+    </string-array>
+
+    <string-array name="menuOptionsHMG">
+        <item>HMG الصفحة الرئيسية</item>
+        <item>الاقسام</item>
+        <item>صفقات</item>
+        <item>أعضائي</item>
+        <item>أعضاء HMG</item>
+        <item>أعضاء الدردشة</item>
+        <item>الإعدادات</item>
+        <item>التبديل إلى VG</item>
+        <item>تغيير كلمة المرور</item>
+        <item>الملف الشخصي</item>
+    </string-array>
+
+    <string-array name="shortcutOptionsHMG">
+        <item>إخطارات</item>
+        <item>الاقسام</item>
+        <item>أعضائي</item>
+        <item>أعضاء HMG</item>
+        <item>أعضاء الدردشة</item>
+        <item>الإعدادات</item>
+        <item>التبديل إلى VG</item>
+        <item>دردشات</item>
+        <item>صفقات</item>
+        <item>مجموعة محادثة</item>
+        <item>أعضاء VG</item>
+        <item>الملف الشخصي</item>
+    </string-array>
+
+    <string-array name="legals">
+        <item>الوسيط المباشر</item>
+        <item>المفوض الرسمي ، المالك وصانع القرار</item>
+        <item>وسيط من عدة وسطاء</item>
+    </string-array>
+
+    <string-array name="period">
+        <item>30 Days</item>
+        <item>60 Days</item>
+        <item>90 Days</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>الزراعة</item>
+        <item>تعدين</item>
+        <item>اعمال بناء</item>
+        <item>تجارة الجملة والتجزئة</item>
+        <item>التخزين والنقل</item>
+        <item>الإقامة والمطاعم</item>
+        <item>التكنولوجيا والاتصالات</item>
+        <item>النهائي والتأمين</item>
+        <item>العقارات</item>
+        <item>المهنة والعلمية</item>
+        <item>الدعم اللوجستي</item>
+        <item>خدمات إدارية</item>
+        <item>التعليم</item>
+        <item>الطب والصحة</item>
+        <item>الفنون والترفيه</item>
+        <item>المعارض والمؤتمرات</item>
+        <item>الإعلان والدعاية</item>
+        <item>سيارات</item>
+        <item>الأثاث والمفروشات</item>
+        <item>النظافة</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>الكل</item>
+        <item>الزراعة</item>
+        <item>تعدين</item>
+        <item>اعمال بناء</item>
+        <item>تجارة الجملة والتجزئة</item>
+        <item>التخزين والنقل</item>
+        <item>الإقامة والمطاعم</item>
+        <item>التكنولوجيا والاتصالات</item>
+        <item>النهائي والتأمين</item>
+        <item>العقارات</item>
+        <item>المهنة والعلمية</item>
+        <item>الدعم اللوجستي</item>
+        <item>خدمات إدارية</item>
+        <item>التعليم</item>
+        <item>الطب والصحة</item>
+        <item>الفنون والترفيه</item>
+        <item>المعارض والمؤتمرات</item>
+        <item>الإعلان والدعاية</item>
+        <item>سيارات</item>
+        <item>الأثاث والمفروشات</item>
+        <item>النظافة</item>
+    </string-array>
+
+    <string-array name="ProjectStatus">
+        <item>كل الحالة</item>
+        <item>لم يكتمل</item>
+        <item>منجز</item>
+    </string-array>
+
+    <string name="app_name">VGINV</string>
+    <string name="usernameHint">البريد الإلكتروني</string>
+    <string name="passwordHint">كلمه السر</string>
+    <string name="oldPasswordHint">كلمة سر قديمة</string>
+    <string name="newPasswordHint">كلمة مرور جديدة</string>
+    <string name="confirmPasswordHint">تأكيد كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="changePassword">تغيير كلمة المرور</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="lgout">الخروج</string>
+    <string name="category">الاقسام</string>
+    <string name="add_new_project">إضافة مشروع جديد</string>
+    <string name="clear_notifications">إخطارات واضحة</string>
+    <string name="projects">مشاريع</string>
+    <string name="Total_Investment">استثمار</string>
+    <string name="Total_Investment_SAR">استثمار SAR</string>
+    <string name="Favorites">المفضلة</string>
+    <string name="notifications">إخطارات</string>
+    <string name="inbox">صندوق الوارد</string>
+
+    <string name="project">مشاريع</string>
+    <string name="news">أخبار</string>
+    <string name="image_des">صورة</string>
+    <string name="image_des_ic_share">شارك</string>
+
+    <string name="updated_just_now">تحديث الآن فقط</string>
+
+
+    <string name="share_article">حصة المادة</string>
+    <string name="the_guardian">الحارس</string>
+    <string name="world">العالمية</string>
+    <string name="science">علم</string>
+    <string name="sport">رياضة</string>
+    <string name="environment">بيئة</string>
+    <string name="society">المجتمع</string>
+    <string name="fashion">موضه</string>
+
+    <string name="business">اعمال</string>
+
+
+    <string name="culture">حضاره</string>
+    <string name="hint_num_of_items">بين 1 و 50</string>
+    <string name="settings_number_of_items_label">عدد العناصر</string>
+
+
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+    <string name="settings_order_by_label">ترتيب حسب</string>
+
+
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+
+    <string name="settings_order_by_newest_label">الأحدث</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+
+    <string name="settings_order_by_oldest_label">أقدم</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+
+    <string name="settings_order_by_relevance_label">ملاءمة</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="settings_from_date_label">من التاريخ</string>
+
+
+    <string name="settings_from_date_key" translatable="false">from date</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+    <string name="settings_order_date_label">تاريخ الطلب</string>
+
+
+    <string name="settings_order_date_key" translatable="false">order date</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+
+    <string name="settings_order_date_published_label">نشرت</string>
+    <string name="settings_order_date_published_value" translatable="false">published</string>
+
+
+    <string name="settings_order_date_newspaper_edition_label">طبعة صحيفة</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">newspaper-edition</string>
+
+
+    <string name="settings_order_date_last_modified_label">آخر تعديل</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">last-modified</string>
+    <string name="settings_color_label">موضوع اللون</string>
+
+
+    <string name="settings_color_key">موضوع اللون</string>
+    <string name="settings_color_default">أبيض</string>
+
+
+    <string name="settings_color_white_label">أبيض</string>
+    <string name="settings_color_white_value">أبيض</string>
+
+
+    <string name="settings_color_sky_blue_label">السماء الزرقاء</string>
+    <string name="settings_color_sky_blue_value">السماء الزرقاء</string>
+
+
+    <string name="settings_color_dark_blue_label">أزرق غامق</string>
+    <string name="settings_color_dark_blue_value">أزرق غامق</string>
+
+
+    <string name="settings_color_violet_label">البنفسجي</string>
+    <string name="settings_color_violet_value">البنفسجي</string>
+
+
+    <string name="settings_color_light_green_label">اخضر فاتح</string>
+    <string name="settings_color_light_green_value">اخضر فاتح</string>
+
+
+    <string name="settings_color_green_label">أخضر</string>
+    <string name="settings_color_green_value">أخضر</string>
+    <string name="settings_text_size_label">حجم الخط</string>
+
+
+    <string name="settings_text_size_key" translatable="false">text size</string>
+    <string name="settings_text_size_default" translatable="false">@string/settings_text_size_medium_value</string>
+
+
+    <string name="settings_text_size_small_label">صغير</string>
+    <string name="settings_text_size_small_value" translatable="false">small</string>
+
+
+    <string name="settings_text_size_medium_label">متوسط</string>
+    <string name="settings_text_size_medium_value" translatable="false">medium</string>
+
+    <string name="settings_text_size_large_label">كبير</string>
+
+    <string name="settings_text_size_large_value" translatable="false">large</string>
+
+
+    <string name="hello_blank_fragment">مرحبا شظية فارغة</string>
+
+
+    <string name="sample_title_default">العرض الافتراضي</string>
+    <string name="sample_subtitle_default">مربعات الحوار والرسائل ذات النمط الافتراضي</string>
+    <string name="sample_title_attrs">عرض نصب</string>
+    <string name="sample_subtitle_attrs">المكونات المصممة باستخدام السمات المدمجة</string>
+    <string name="sample_title_layout">تخطيط مخصص</string>
+    <string name="sample_subtitle_layout">تخطيطات مخصصة لتغيير موضع المشاهدات الافتراضي</string>
+    <string name="sample_title_holder">حامل عرض مخصص</string>
+    <string name="sample_subtitle_holder">حامل عرض مخصص لتوسيع السلوك الافتراضي لميزات جديدة</string>
+    <string name="sample_title_custom_content">نوع المحتوى المخصص</string>
+    <string name="sample_subtitle_custom_content">محتوى رسالة مخصص على مثال الرسالة الصوتية</string>
+
+    <string name="hint_enter_a_message">اكتب رسالة ...</string>
+    <string name="on_log_click_message">المخصصة الخاصة بك نقرة طويلة معالج</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_copy">نسخ</string>
+    <string name="copied_message">تم نسخ الرسالة!</string>
+
+    <string name="date_header_today">اليوم</string>
+    <string name="date_header_yesterday">في الامس</string>
+
+    <string name="start_typing_status">ابدأ الطباعة</string>
+
+    <string name="stop_typing_status">توقف عن الكتابة</string>
+    <string name="sample_title">ChatKit لنظام Android</string>
+    <string name="view">رأي</string>
+    <string name="hmgvgerror">لا يمكنك مشاهدة ملف تعريف المستخدم هذا</string>
+    <string name="hmgvgchaterror">لا يمكنك الدردشة مع هذا المستخدم</string>
+    <string name="friendRequestError">هناك خطأ ما. الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="friendrequest">طلب صديق جديد</string>
+    <string name="friendRequestDetails">أرسل لك طلب صداقة</string>
+    <string name="fieldRequired">جميع الحقول مطلوبة</string>
+    <string name="passwordMatchError">كلمة السر غير متطابقة</string>
+    <string name="passwordChangeSuccesss">تم تغيير كلمة المرور بنجاح</string>
+    <string name="profileChangeSuccesss">تم تحديث الملف الشخصي بنجاح</string>
+    <string name="passwordChangeError">حدث خطأ أثناء تغيير كلمة المرور ، أعد المحاولة لاحقًا</string>
+    <string name="profileChangeError">يوجد خطأ في تحديث ملف التعريف ، أعد المحاولة لاحقًا</string>
+    <string name="editProfile">تعديل الملف الشخصي</string>
+    <string name="saveProfile">احفظ الملف</string>
+    <string name="fileUploading">الملف قيد التحميل ...</string>
+    <string name="AddNewProject">إضافة مشروع جديد</string>
+    <string name="AddNewDeal">أضف صفقة جديدة</string>
+    <string name="title">اختيار العنوان المناسب لمشاريعك</string>
+    <string name="legalStatus">مزود الوضع القانوني</string>
+    <string name="budget">الميزانية الإجمالية</string>
+    <string name="budget_SAR">الميزانية الإجمالية SAR</string>
+    <string name="submit">خضع</string>
+    <string name="addImage">إضافة صورة</string>
+    <string name="addFile">أضف فيديو</string>
+    <string name="description">وصف</string>
+    <string name="choseFile">اختيار ملف</string>
+    <string name="pleasewait">ارجوك انتظر..</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="ProjectPosted">تم نشر المشروع بنجاح</string>
+    <string name="ProjectPostedHMG">تم نشر الصفقة بنجاح</string>
+    <string name="ProjectPostFail">أخفق نشر المشروع ، حاول مرة أخرى لاحقًا</string>
+    <string name="ProjectPostFailHMG">أخفق نشر الصفقة ، أعد المحاولة لاحقًا</string>
+    <string name="InvestInProject">أنا مهتم بهذا المشروع</string>
+    <string name="InvestInDeal">أنا مهتم بهذه الصفقة</string>
+    <string name="DownloadFiles">تحميل ملفات</string>
+    <string name="Deals">صفقات</string>
+    <string name="HmgSwitch">التبديل إلى HMG</string>
+    <string name="VGSwitch">التبديل إلى VG</string>
+    <string name="Messages">رسائل</string>
+    <string name="Home_vg">الصفحة الرئيسية VG</string>
+    <string name="Home_hmg">HMG الصفحة الرئيسية</string>
+    <string name="SEND_MESSAGE">أرسل رسالة</string>
+    <string name="LegalStatusProvider">الوضع القانوني لمزود المشروع</string>
+    <string name="Period">فترة</string>
+
+
+    <string name="switchusertitle">تغير المستخدم</string>
+    <string name="Country">بلد المشروع</string>
+    <string name="City">مدينة المشروع</string>
+    <string name="switchmsg">اتفاقية " الضوابط و الأحكام "
+\nشركة التجمع الافتراضي – VG Inv. Co.
+	\n1.	إن العناصر المكونة لمشروع التجمع الإفتراضي هي على النحو التالي:-
+	\n	شركة التجمع الافتراضي للإستثمار ومقرها الرئيس مدينة الرياض, وجاري التوسع محلياً و دولياً
+	\n	مركز حاضنة الأعمال لشركة التجمع الافتراضي بالرياض. المملكة العربية السعودية  " بيت الافتراضيين"
+	\n	موقع التجمع الإفتراضي على الانترنت www.gvinv.com
+	\n	 تطبيق التجمع الإفتراضي على منصات ابل ستور واندرويد تحت اسم VGINV
+	\n2.	ان هذه العناصر مجتمعه او منفردة تمثل أصل وروح مشروع (التجمع الإفتراضي) التي طورها المهندس/ سالم المسرحي, وبالتالي فإن قبولك بالإنضمام والتوقيع على هذه الوثيقة (الكترونياً) يعني قبولك بما جاء في هذه الإتفاقية حيث ان (التجمع الإفتراضي) يخضع لضوابط وأحكام هذه الإتفاقية ووافق جميع الاعضاء على اعتبار هذه الإتفاقية بمثابة المرجع الذي يضبط وينظم طريقة عمل التجمع الافتراضي وخارطة طريق لماهو قادم من خطوات يتم التوافق عليها بين جميع الأعضاء
+	\n3.	الهدف : من إنشاء هذا التجمع الافتراضي هو جمع أكبر عدد من الأعضاء المؤمنين بفكرة التعامل بالإفتراضية في عالم المال والأعمال ,ودمجهم ضمن بيئة تفاعلية غير ملزمة عبر تطبيق VGINV الذي يتكون من أعضاء مميزون يتوفر لديهم رؤوس اموال حاضرة قادرة على الدخول في مختلف الفرص الاستثمارية التي تناسبهم سواءا جماعيا او من خلال تكتلات جانبية
+	\n4.	الرؤية : هي ان تتحول فكرة وطريقة عمل شركة التجمع الإفتراضي للاستثمار الى حاضنة للمال والأعمال بطريقة مبتكرة وغير مسبوقة بامكانات ادارية مرنة واليات عملية لتحقيق افضل مداخيل ربحية ممكنة من كافة الفرص المطروحة من اعضاء التجمع الإفتراضي أو من خارج التجمع الإفتراضي او من رواد ورائدات الأعمال المتوقع شغلهم  لمساحات مختلفة بمراكز حاضنات شركة التجمع الافتراضي للإستثمار
+	\n5.	اخلاء مسؤولية:  تحذر شركة التجمع الافتراضي للاستثمار من انها لاتطلب ولن تطلب في اي وقت من الأوقات اي مبالغ نقدية سواء عبر التسليم الشخصي او عبر الحوالات البنكية لاي سبب, عدا ماحددته في الفقرة (6) من هذه الاتفاقية  ،  كما تحذر جميع الأعضاء من نقل او تحويل مبالغ مالية فيما بينهم دون اسباب منطقية ومرجعية قانونية ووثائق مصاحبة او غير ذات صلة بمشاريع او صفقات تم التوافق عليها بين كل او بعض الأعضاء ويتحمل كل عضو مسؤولية تصرفاته امام جهات الاختصاص الرسمية دون ادنى مسؤولية على شركة التجمع الافتراضي للاستثمار
+	\n6.	رسوم: علم جميع أعضاء التجمع الافتراضي بأنه لضمان استمرارية عمل شركة التجمع الافتراضي في اداء اعمالها ولتغطية مصاريف التطوير والتشغيل والصيانة والاعلانات ولجلب مزيداً من الأعضاء الفاعلين, اوجدت شركة التجمع الافتراضي ( 3 ) خيارات للحصول على حقوقها من أي عملية تجارية تتم بين اعضاء التجمع الإفتراضي وللعضو اختيار مايناسبه منها وهي على النحو التالي  :
+	\n.	الحصول على حصة لا تقل عن 2,5 % من الأعمال التجارية والشراكات التي تتم بين الأعضاء وتسجل الحصة باسم شركة التجمع الافتراضي للاستثمار.
+	\n.	الحصول على نسبة 5% من صافي ارباح الصفقات والأعمال التجارية والشراكات التي تتم بين الأعضاء بحيث يتم الاتفاق مع شركة التجمع الافتراضي على آليه التنفيذ.
+	\n.	 الاتفاق والتراضي على مبلغ مقطوع.
+ويبقى اختيار العضو لأي من هذه الخيارات الثلاثة حق و ذمة لاتسقط بالتقادم حتى يتم دفعها لشركة التجمع الإفتراضي للاستثمار
+	\n7.	استوعب جميع أعضاء التجمع الافتراضي اساس وطريقة عمل (التجمع الإفتراضي) ووافقوا عليها وهي الإفتراضية اي انه لايوجد الزام ولا التزام لأي عضو من ناحية قبول مايعرضه باقي الأعضاء من فرص, أفكار, مشاريع, صفقات, اقتراحات, تصورات وكذلك حضور اجتماعات العمل من عدمه, فلكل عضو كامل الحرية بالقبول او الرفض دون الحاجة لابداء الاسباب والمبررات
+	\n8.	يحق لأي عضو طرح مايشاء من فرص, أفكار, مشاريع,صفقات, اقتراحات وتصورات في أي وقت بعد تاريخ إنضمامه شريطة مراعاة الدقة والمصداقية فيما يطرحه على أن يكون مايعرضه واقعي وقابل للتطبيق ويفضل الجهوزية الكاملة عند طرح المشاريع اي توفر دراسات و ملخصات وميزانيات والعوائد والمخاطر والارباح وغيرها من الأمور الإعتيادية ذات الصلة
+	\n9.	ان كل مايطرحه أي عضو بالتجمع الإفتراضي من فرص, أفكار, مشاريع,صفقات, اقتراحات, تصورات وكافة الطروحات سواء مكتوبة او رسائل صوتية, رسائل نصية, اتصالات هاتفية او لقاءات شخصية او من خلال مختلف الوسائل الالكترونية عبر عناصر (التجمع الإفتراضي) الموضحة بمقدمة هذه الاتفاقية, تعتبر حقاً مشاعاً لجميع الاعضاء من ناحية التصرف بها منذ اللحظة التي تم طرحه فيها, ولايحق لمن طرح هذه العروض الاعتراض او طلب تعويض اذا تصرف اي عضو او أعضاء بهذه العروض واستغلوها وحققوا فوائد مادية او معنوية من وراءها.
+	\n10.	قررنا استقطاع نسبة 1% من عائد اياً من اختياراتك من الخيارات الثلاثة الموضحة في الفقرة (6) للاعمال الخيرية ، على أن تقوم شركة التجمع الافتراضي للاستثمار وفق الإمكانات بإنشاء مؤسسة خيرية غير ربحية لتتولى هذه المهمة
+	\n11.	يحق لأي عضو العمل بصفة منفردة أو جماعية ،كما ويحق له الإتحاد والتضامن ومقابلة من يشاء من أعضاء التجمع الافتراضي عبر مختلف المجالات والوسائل المتاحة سواء الكترونيا او شخصياً وكذلك عبر مقر حاضنة الأعمال الخاصة بشركة التجمع الافتراضي للاستثمار (بيت الافتراضيين)
+	\n12.	  اذا توافق عضو او مجموعة من الأعضاء على تنفيذ مشروع او صفقة ما في اي موقع جغرافي بالعالم وتم دراستها والتأكد من كافة نواحيها الاقتصادية والمالية وتم اعتمادها للتنفيذ, يقرر الجميع الطريقة الآمثل والأكثر امناً وقانونية للدخول في هذا المشروع او الصفقة, اي انه يتم التعامل مع كل حالة وفقاً لما يتم الإتفاق عليه بين الأعضاء المساهمون في هذه العملية التجارية بعينها
+	\n13.	علم اعضاء التجمع الافتراضي ان تطبيق (VGINV) هو المنصة الالكترونية المعتمدة المخصصة للنقاشات وطرح المشاريع والصفقات والأفكار والتصورات وكذلك للرد على الاستفسارات الموجودة لدى الأعضاء ويستطيع اي عضو تحميل التطبيق من متاجر ابل و اندرويد مجانا على ان يتم تفعيل اشتراكه لاحقا من قبل ممثل شركة التجمع الافتراضي
+	\n14.	ان الحد الأدنى لقبول واستمرارية العضوية لكافة أعضاء (التجمع الإفتراضي) هو اثبات كفاءة مالية لمبلغ 500 الف ريال سعودي او مايعادله بالعملات الأخرى, ويحق لممثل شركة التجمع الافتراضي التحقق من الكفاءة المالية من كافة الأعضاء في اي وقت لضمان جودة مستوى الأعضاء والتأكد ان الجميع هم على نفس المستوى والكفاءه والجهوزية المالية
+	\n15.	يحق لممثل شركة التجمع الافتراضي التصرف في الغاء عضوية اي عضو واخراجه من (التجمع الإفتراضي) في حال تأكد له قيام هذا العضو بمخالفات, وممارسات تؤدي الى التشويش والشوشرة, او التضليل والتدليس, او اعطاء بيانات غير صحيحة, او في حال  بقاء العضو مجمدا ومتوقف عن التفاعل والمشاركة مع بقية الأعضاء لفترة طويلة
+	\n16.	لايتحمل صاحب الفكرة ومتبنيها ولا ممثل شركة التجمع الافتراضي ولا أي عضو في التجمع الإفتراضي أخطاء الغير وكذلك لايتحملون اي نتائج سلبية قد يحدثها احد الأعضاء عن عمد او غير عمد
+	\n17.	يحق لأي عضو من أعضاء التجمع الافتراضي مغادرة (التجمع الإفتراضي) والخروج من تلقاء نفسه وقتما يشاء ودون الحاجة للتبرير
+	\n18.	يتحمل اي عضو من أعضاء (التجمع الإفتراضي) منفردا اي مسؤولية قانونية او ادعائات اجرائية من الجهات المختصة ذات الصلة في حال ثبت بأنه قدم فكرة,مشروع او صفقة مشبوهة او مسروقة او غير معلومة المصدر ونسبها الى نفسه, ولايتحمل اي عضو مساهم او مشارك في هذه العملية المسؤولية عن ذلك وكذلك لاتتحمل  شركة التجمع الافتراضي او من يمثلها المسؤولية عنها
+	\n19.	 يتحمل أي عضو قدم بيانات شخصية غير حقيقة او مزيفة او ليست عائده له او انتحل صفة ليست به المسؤولية كاملة اذا ماتم فتح تحقيق في ذلك عبر الجهات المختصة ويخلي كافة (اعضاء التجمع الإفتراضي) وشركة التجمع الافتراضي او من يمثلها انفسهم من اي مسؤولية قد تترتب على ذلك
+	\n20.	يحق لشركة التجمع الافتراضي للاستثمار او من يمثلها حذف أي بيانات او معلومات تم تسجيلها من خلال جميع الوسائل الموضحة بمقدمة هذه الإتفاقية بطريقة غير صحيحه او مشتبه بها او غير كاملة ، علما بأنه يتوجب على كل عضو التسجيل باسمه الكامل الصريح ولاتقبل الأسماء المستعارة .
+	\n21.	علم جميع أعضاء (التجمع الافتراضي) بأن هذه الاتفاقية (اتفاقية الضوابط والاحكام) سارية المفعول حتى يتم الغائها كتابياً، وليس لها فترة صلاحية محددة وسيتم تحديثها كلما دعت الحاجة الى ذلك.
+</string>
+    <string name="close">أغلق</string>
+    <string name="agree">يوافق على</string>
+    <string name="totalMemberInvest">مجموع الأعضاء الاستثمار</string>
+    <string name="enter_amount">Enter Amount</string>
+
+
+    <string-array name="view_types_dialog">
+        <item name="image">الصورة (الافتراضي)</item>
+        <item name="voice">رسالة صوتية (مخصص)</item>
+    </string-array>
+
+    <string name="create_room">أضف مجموعة جديدة</string>
+    <string name="group_name">أسم المجموعة</string>
+    <string name="group_description">وصف المجموعة</string>
+    <string name="group_image">صورة المجموعة</string>
+    <string name="group_members">اختيار أعضاء المجموعة</string>
+    <string name="delete">حذف المجموعة</string>
+    <string name="add_members">إضافة أعضاء</string>
+    <string name="group_info_update">تحديث معلومات المجموعة</string>
+    <string name="group_admin">المشرف مجموعة</string>
+    <string name="Change_Language">تغيير اللغة</string>
+    <string name="search_here">ابحث هنا</string>
+    <string name="all_members">كل الأعضاء</string>
+    <string name="members_notification">إخطار الأعضاء</string>
+    <string name="vg_members_message">لعرض أعضاء VG ، يجب عليك ملء النموذج وإرسال الطلب</string>
+    <string name="hmg_members_message">لعرض أعضاء HMG ، يجب عليك ملء النموذج وإرسال الطلب</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="call_date">حدد تاريخ الاتصال</string>
+    <string name="call_time">حدد وقت الاتصال</string>
+    <string name="switchback_hmg">يتم تحويلك إلى VG. عد إلى HMG</string>
+    <string name="switchback_vg">يتم تحويلك إلى HMG. عد إلى VG</string>
+    <string name="phone">هاتف</string>
+    <string name="address">عنوان</string>
+    <string name="choosecountry">اختر الدولة</string>
+    <string name="choosecity">اختر مدينة</string>
+    <string name="designation">تعيين</string>
+    <string name="bio">السيرة الذاتية</string>
+    <string name="job_title">عنوان وظيفي</string>
+    <string name="edit">تعديل</string>
+    <string name="save">حفظ</string>
+    <string name="save_message">هل تريد حفظ الإعدادات؟</string>
+
+    <string name="project_interest">شكرا لك على التعبير عن اهتمامك</string>
+    <string name="call_message">هل ترغب في جدولة مكالمة هاتفية لمزيد من التفاصيل؟</string>
+    <string name="project_like_vg">أحب هذا المشروع</string>
+    <string name="project_like_hmg">أحب هذه الصفقة</string>
+    <string name="call_scheduled">شكرا لكم. تم تحديد مكالمتك</string>
+    <string name="no_members_to_add">لا يوجد أعضاء متاحون للإضافة</string>
+    <string name="no_new_notifications">لا يوجد إشعارات جديدة</string>
+    <string name="no_friends_added">لا يوجد أعضاء في قائمة أعضائي ، انقر للإضافة</string>
+    <string name="no_chat_available">لم يتم العثور على دردشة الأعضاء ، انقر للدردشة مع الأعضاء</string>
+
+    <string name="no_projects">لا توجد مشاريع لإظهارها</string>
+    <string name="no_deals">لا توجد عروض لإظهارها</string>
+    <string name="no_deals_vg_message">لعرض الصفقات ، يجب عليك ملء نموذج HMG وإرسال النموذج</string>
+
+    <string name="thanks_keep_exploring_deals">شكر. استمر في استكشاف المزيد من الصفقات</string>
+    <string name="thanks_keep_exploring_projects">شكر. استمر في استكشاف المزيد من المشاريع</string>
+
+    <string name="file_saved">تم حفظ الملف بنجاح</string>
+    <string name="load_more">شاهد المزيد من المشاريع</string>
+    <string name="load_more_deals">شاهد المزيد من الصفقات</string>
+    <string name="downloading">جارى التحميل</string>
+    <string name="Attachments">المرفقات</string>
+    <string name="ProjectSubmittedSuccessfully">تم تقديم المشروع بنجاح</string>
+    <string name="DrojectSubmittedSuccessfully">تم تقديم الصفقة بنجاح</string>
+
+    <string name="UnFriend">حذف العضو</string>
+    <string name="UnFriendMessage">هل تريد بالتأكيد حذف العضو؟</string>
+    <string name="Ok">حسنا</string>
+    <string name="ThanksforSubmittingthePoll">شكرا لتقديم الاستطلاع</string>
+
+    <string name="PleaseContactAdminforHMGaccess">يرجى الاتصال بالمسؤول للوصول HMG</string>
+    <string name="ClickHere">انقر هنا</string>
+    <string name="HMGAdminwillcontactyoushortly">شكرًا لطلبك ، سيتصل بك HMG Admin قريبًا"</string>
+    <string name="VideUploading">يتم تحميل الفيديو. ارجوك انتظر"</string>
+
+    <string name="ProjectTitle">العنوان (الأحرف الخاصة غير مسموح بها)"</string>
+    <string name="SessionMessage">تم تسجيل هذا الحساب على جهاز آخر"</string>
+
+</resources>

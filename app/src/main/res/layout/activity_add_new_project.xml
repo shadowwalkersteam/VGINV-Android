@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offWhite"
+    tools:context=".AddNewProject">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:descendantFocusability="beforeDescendants"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg_blue">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center|top" >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/logo"
+                        />
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:text="@string/AddNewProject"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/layout_bg_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="40dp"
+                    android:textSize="16sp"
+                    android:hint="@string/ProjectTitle"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:counterEnabled="true"
+                    android:layout_marginTop="40dp"
+                    app:counterMaxLength="200"
+                    >
+                    <EditText
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/title"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@android:color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/LegalStatusProvider"
+                    />
+
+                <Spinner
+                    android:id="@+id/legalStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@id/legalStatus"
+                    style="@style/spinner_style"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/periodHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:hint="@string/Period"
+                    />
+
+                <Spinner
+                    android:id="@+id/period"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@id/legalStatus"
+                    style="@style/spinner_style"
+                    android:visibility="gone"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/Total_Investment_SAR"
+                    />
+
+                <EditText
+                    android:id="@+id/investment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Total_Investment"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/budget_SAR"
+                    />
+
+                <EditText
+                    android:id="@+id/budget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/budget"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/Country"
+                    />
+
+                <Spinner
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:descendantFocusability="beforeDescendants"
+                    style="@style/spinner_style"
+                    android:prompt="@id/legalStatus"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/City"
+                    />
+
+                <Spinner
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:descendantFocusability="beforeDescendants"
+                    style="@style/spinner_style"
+                    android:prompt="@id/legalStatus"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:hint="@string/category"
+                    />
+
+                <Spinner
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:descendantFocusability="beforeDescendants"
+                    style="@style/spinner_style"
+                    android:prompt="@id/legalStatus"
+                    android:layout_gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/description"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black" />
+
+
+                <Button
+                    android:id="@+id/addImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_button"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/addImage"
+                    />
+
+                <Button
+                    android:id="@+id/addFile"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_button"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/addFile"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/attachmentsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center|left"
+                    android:background="#7b7b7b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Attachments"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <com.techno.vginv.Views.EmptyRecyclerView
+                    android:id="@+id/attachmentsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_button"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/submit"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
